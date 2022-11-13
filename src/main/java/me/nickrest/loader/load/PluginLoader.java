@@ -13,6 +13,12 @@ import java.util.List;
 import java.util.jar.JarEntry;
 import java.util.jar.JarFile;
 
+/**
+ * This class is used to load plugins from a file.
+ *
+ * @author NickRest
+ * @since 11/13/2022
+ * */
 @Getter
 public class PluginLoader {
 

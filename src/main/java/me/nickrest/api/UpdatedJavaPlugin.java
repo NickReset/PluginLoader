@@ -7,6 +7,12 @@ import org.bukkit.configuration.file.YamlConfiguration;
 
 import java.io.File;
 
+/**
+ * This class is the base class for all plugins that are loaded by the loader.
+ *
+ * @author NickRest
+ * @since 11/13/2022
+ * */
 @Getter @Setter
 public class UpdatedJavaPlugin {
 

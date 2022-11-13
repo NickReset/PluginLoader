@@ -9,6 +9,12 @@ import java.io.InputStreamReader;
 
 import static org.bukkit.configuration.file.YamlConfiguration.loadConfiguration;
 
+/**
+ * This class is used to load the plugin.yml file.
+ *
+ * @author NickRest
+ * @since 11/13/2022
+ * */
 @Getter @Setter
 public class PluginDescriptionFile {
 
