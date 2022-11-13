@@ -1,0 +1,5 @@
+name: PluginClassLoader
+version: '${project.version}'
+main: me.nickrest.loader.Loader
+api-version: 1.19
+description: This plugin is used to load jar files from my VPS
