@@ -31,6 +31,7 @@ public class CommandManager {
      * */
     public void register(Command command) {
         commands.add(command);
+        plugin.getCommandMap().register(command.getFallbackPrefix(), command);
     }
 
     /**
@@ -40,7 +41,6 @@ public class CommandManager {
      * */
     public void unregister(Command command) {
         commands.remove(command);
-        plugin.getCommandMap().register(command.getFallbackPrefix(), command);
     }
 
 }
