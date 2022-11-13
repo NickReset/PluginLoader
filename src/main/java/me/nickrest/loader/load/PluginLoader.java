@@ -43,6 +43,7 @@ public class PluginLoader {
                 mkdir(dataDir);
 
                 plugin.setDataFolder(dataDir);
+                plugin.setCommandManager(Loader.getPlugin(Loader.class).getCommandManager());
                 plugin.onEnable();
             } catch (Exception e) {
                 throw new RuntimeException("Failed to load plugin", e);
