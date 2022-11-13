@@ -11,5 +11,4 @@ public final class PluginClassLoader extends URLClassLoader {
         super(new URL[] {file.toURI().toURL()}, parent);
     }
 
-
 }
