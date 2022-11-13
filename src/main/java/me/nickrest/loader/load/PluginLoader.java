@@ -49,6 +49,7 @@ public class PluginLoader {
                 mkdir(dataDir);
 
                 plugin.setDataFolder(dataDir);
+                plugin.setPluginManager(Loader.getPlugin(Loader.class).getServer().getPluginManager());
                 plugin.setCommandManager(Loader.getPlugin(Loader.class).getCommandManager());
                 plugin.onEnable();
             } catch (Exception e) {
