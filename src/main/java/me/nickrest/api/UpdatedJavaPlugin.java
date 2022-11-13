@@ -16,9 +16,9 @@ import java.io.File;
 @Getter @Setter
 public class UpdatedJavaPlugin {
 
-    private YamlConfiguration configuration;
-    private File dataFolder;
-    private CommandManager commandManager;
+    protected YamlConfiguration configuration;
+    protected File dataFolder;
+    protected CommandManager commandManager;
 
     public void onEnable(){}
     public void onDisable(){}
